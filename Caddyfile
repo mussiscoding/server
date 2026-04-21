@@ -6,6 +6,11 @@ leagues.johng.me {
     reverse_proxy 127.0.0.1:8001
 }
 
+td.johng.me {
+    root * /srv/td/dist
+    file_server
+}
+
 johng.me {
     root * /srv/server/hub
     file_server
